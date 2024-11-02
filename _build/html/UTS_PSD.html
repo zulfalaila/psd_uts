@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>PSD UTS “Prediksi Produksi Penjualan Ice Cream” &#8212; My sample book</title>
+    <title>Data Understanding &#8212; My sample book</title>
   
   
   
@@ -179,7 +179,9 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#"><strong>PSD UTS “Prediksi Produksi Penjualan Ice Cream”</strong></a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Understanding</a></li>
+
+
 </ul>
 
     </div>
@@ -365,7 +367,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>PSD UTS “Prediksi Produksi Penjualan Ice Cream”</h1>
+    <h1>Data Understanding</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -375,28 +377,30 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-understanding">Data Understanding</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#library">library</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#menampilkan-data">menampilkan data</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Data Understanding</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#library">library</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menampilkan-data">menampilkan data</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing">Data Preprocessing</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#menambahkan-fitur">menambahkan fitur</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#missing-value">missing value</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deskripsi-data">deskripsi data</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing">Data Preprocessing</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#missing-value">missing value</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deskripsi-data">deskripsi data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisasi-data-dan-outlier">Visualisasi data dan outlier</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#membagi-data">membagi data</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model">membuat model</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bagging">Bagging</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#arima">Arima</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#linier-regression">Linier Regression</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membagi-data">membagi data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model">membuat model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bagging">Bagging</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#arima">Arima</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linier-regression">Linier Regression</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kesimpulan">Kesimpulan</a></li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+
             </nav>
         </div>
     </div>
@@ -407,29 +411,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="psd-uts-prediksi-produksi-penjualan-ice-cream">
-<h1><strong>PSD UTS “Prediksi Produksi Penjualan Ice Cream”</strong><a class="headerlink" href="#psd-uts-prediksi-produksi-penjualan-ice-cream" title="Link to this heading">#</a></h1>
+  <p>#<strong>PSD UTS “Prediksi Produksi Penjualan Ice Cream”</strong></p>
 <ul class="simple">
 <li><p>Nama : Zulfa Lailatul Mu’achirin</p></li>
 <li><p>Nim : 220411100147</p></li>
 <li><p>Matkul : PSD D</p></li>
 </ul>
 <section id="data-understanding">
-<h2>Data Understanding<a class="headerlink" href="#data-understanding" title="Link to this heading">#</a></h2>
+<h1>Data Understanding<a class="headerlink" href="#data-understanding" title="Link to this heading">#</a></h1>
 <p>Data diperoleh dari kaggle <a class="reference external" href="https://www.kaggle.com/datasets/atharvaarya25/ice-cream-production-over-50-years">https://www.kaggle.com/datasets/atharvaarya25/ice-cream-production-over-50-years</a>. Pada data tersebut hanya terdapat 2 fitur yaitu DATE yang menunjukkan tanggal dan IPN31152N yang merupakan fitur produksi penjualan. Pada data ini terdapat 577 data yang dikumpulkan dari 48 tahun terakhir mulai dari tahun 1972 sampai tahun 2020. Data yang dikumpulkan merupakan data yang diambil setiap bulan pada tanggal 1 untuk produksi penjualan.</p>
+<p>prediksi ini berguna untuk :</p>
+<ol class="arabic simple">
+<li><p>perencanaan produksi stok</p></li>
+<li><p>melihat pola permintaan musiman</p></li>
+<li><p>pengambilan keputusan bisnis</p></li>
+</ol>
 <section id="library">
-<h3>library<a class="headerlink" href="#library" title="Link to this heading">#</a></h3>
+<h2>library<a class="headerlink" href="#library" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">BaggingRegressor</span><span class="p">,</span> <span class="n">RandomForestRegressor</span>
 <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
 <span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">mean_absolute_error</span><span class="p">,</span> <span class="n">r2_score</span>
 <span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeRegressor</span> <span class="c1"># Import DecisionTreeRegressor</span>
 <span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span> <span class="c1"># Import StandardScaler for scaling</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
 <span class="kn">from</span> <span class="nn">statsmodels.tsa.arima.model</span> <span class="kn">import</span> <span class="n">ARIMA</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">mean_absolute_error</span><span class="p">,</span> <span class="n">r2_score</span>
@@ -440,35 +450,33 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">11</span>
-<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
-<span class="ne">---&gt; </span><span class="mi">11</span> <span class="kn">from</span> <span class="nn">statsmodels.tsa.arima.model</span> <span class="kn">import</span> <span class="n">ARIMA</span>
-<span class="g g-Whitespace">     </span><span class="mi">12</span> <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">mean_absolute_error</span><span class="p">,</span> <span class="n">r2_score</span>
-<span class="g g-Whitespace">     </span><span class="mi">13</span> <span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">VotingRegressor</span>
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">BaggingRegressor</span><span class="p">,</span> <span class="n">RandomForestRegressor</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;statsmodels&#39;
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;seaborn&#39;
 </pre></div>
 </div>
 </div>
 </div>
 </section>
 <section id="menampilkan-data">
-<h3>menampilkan data<a class="headerlink" href="#menampilkan-data" title="Link to this heading">#</a></h3>
+<h2>menampilkan data<a class="headerlink" href="#menampilkan-data" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s2">&quot;/content/drive/MyDrive/kuliah sem 5/PSD/Mydata/ice_cream.xlsx&quot;</span><span class="p">)</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;DATE&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;DATE&#39;</span><span class="p">])</span>
 
-<span class="c1"># Set DATE as index</span>
-<span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;DATE&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-bda5a360-32f0-43c1-a56f-525b46a652e8" class="colab-df-container">
+  <div id="df-74e46edc-785f-479f-b475-dd3d3679af42" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -487,66 +495,74 @@ document.write(`
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>IPN31152N</th>
-    </tr>
-    <tr>
       <th>DATE</th>
-      <th></th>
+      <th>IPN31152N</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>1972-01-01</th>
+      <th>0</th>
+      <td>1972-01-01</td>
       <td>59.9622</td>
     </tr>
     <tr>
-      <th>1972-02-01</th>
+      <th>1</th>
+      <td>1972-02-01</td>
       <td>67.0605</td>
     </tr>
     <tr>
-      <th>1972-03-01</th>
+      <th>2</th>
+      <td>1972-03-01</td>
       <td>74.2350</td>
     </tr>
     <tr>
-      <th>1972-04-01</th>
+      <th>3</th>
+      <td>1972-04-01</td>
       <td>78.1120</td>
     </tr>
     <tr>
-      <th>1972-05-01</th>
+      <th>4</th>
+      <td>1972-05-01</td>
       <td>84.7636</td>
     </tr>
     <tr>
       <th>...</th>
       <td>...</td>
+      <td>...</td>
     </tr>
     <tr>
-      <th>2019-09-01</th>
+      <th>572</th>
+      <td>2019-09-01</td>
       <td>100.1741</td>
     </tr>
     <tr>
-      <th>2019-10-01</th>
+      <th>573</th>
+      <td>2019-10-01</td>
       <td>90.1684</td>
     </tr>
     <tr>
-      <th>2019-11-01</th>
+      <th>574</th>
+      <td>2019-11-01</td>
       <td>79.7223</td>
     </tr>
     <tr>
-      <th>2019-12-01</th>
+      <th>575</th>
+      <td>2019-12-01</td>
       <td>75.7094</td>
     </tr>
     <tr>
-      <th>2020-01-01</th>
+      <th>576</th>
+      <td>2020-01-01</td>
       <td>83.6290</td>
     </tr>
   </tbody>
 </table>
-<p>577 rows × 1 columns</p>
+<p>577 rows × 2 columns</p>
 </div>
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-bda5a360-32f0-43c1-a56f-525b46a652e8')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-74e46edc-785f-479f-b475-dd3d3679af42')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -598,12 +614,12 @@ document.write(`
 
     <script>
       const buttonEl =
-        document.querySelector('#df-bda5a360-32f0-43c1-a56f-525b46a652e8 button.colab-df-convert');
+        document.querySelector('#df-74e46edc-785f-479f-b475-dd3d3679af42 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-bda5a360-32f0-43c1-a56f-525b46a652e8');
+        const element = document.querySelector('#df-74e46edc-785f-479f-b475-dd3d3679af42');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -623,8 +639,8 @@ document.write(`
   </div>
 
 
-<div id="df-77dfff08-aa4d-4b6a-bd9d-8b81e3badbbd">
-  <button class="colab-df-quickchart" onclick="quickchart('df-77dfff08-aa4d-4b6a-bd9d-8b81e3badbbd')"
+<div id="df-731a88ad-653a-4c04-b3fd-d3d40138ba1c">
+  <button class="colab-df-quickchart" onclick="quickchart('df-731a88ad-653a-4c04-b3fd-d3d40138ba1c')"
             title="Suggest charts"
             style="display:none;">
 
@@ -743,14 +759,14 @@ document.write(`
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-77dfff08-aa4d-4b6a-bd9d-8b81e3badbbd button');
+        document.querySelector('#df-731a88ad-653a-4c04-b3fd-d3d40138ba1c button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
   </script>
 </div>
 
-  <div id="id_2939fb94-9dde-425d-a0e6-aff48f76ba03">
+  <div id="id_96a540aa-1300-4567-8bf8-521c2804175b">
     <style>
       .colab-df-generate {
         background-color: #E8F0FE;
@@ -794,7 +810,7 @@ document.write(`
     <script>
       (() => {
       const buttonEl =
-        document.querySelector('#id_2939fb94-9dde-425d-a0e6-aff48f76ba03 button.colab-df-generate');
+        document.querySelector('#id_96a540aa-1300-4567-8bf8-521c2804175b button.colab-df-generate');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
@@ -812,378 +828,10 @@ document.write(`
 </section>
 </section>
 <section id="data-preprocessing">
-<h2>Data Preprocessing<a class="headerlink" href="#data-preprocessing" title="Link to this heading">#</a></h2>
-<section id="menambahkan-fitur">
-<h3>menambahkan fitur<a class="headerlink" href="#menambahkan-fitur" title="Link to this heading">#</a></h3>
-<p>menambahkan fitur month untuk memberikan perhitungan di setiap bulannya</p>
+<h1>Data Preprocessing<a class="headerlink" href="#data-preprocessing" title="Link to this heading">#</a></h1>
 <p>Untuk menerapkan pembelajaran supervised pada peramalan time series , kita perlu mengubah data time series ke dalam format yang sesuai. Hal ini melibatkan pembuatan pasangan input-output dari data berurutan menggunakan teknik sliding window.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># We&#39;ll use a supervised learning approach: predicting the next value based on previous values</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Month&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># Adding a month counter</span>
-<span class="n">df</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html">
-  <div id="df-c83efe95-593d-40c9-9124-730aeaa962a0" class="colab-df-container">
-    <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>IPN31152N</th>
-      <th>Month</th>
-    </tr>
-    <tr>
-      <th>DATE</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1972-01-01</th>
-      <td>59.9622</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1972-02-01</th>
-      <td>67.0605</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>1972-03-01</th>
-      <td>74.2350</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>1972-04-01</th>
-      <td>78.1120</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>1972-05-01</th>
-      <td>84.7636</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>2019-09-01</th>
-      <td>100.1741</td>
-      <td>573</td>
-    </tr>
-    <tr>
-      <th>2019-10-01</th>
-      <td>90.1684</td>
-      <td>574</td>
-    </tr>
-    <tr>
-      <th>2019-11-01</th>
-      <td>79.7223</td>
-      <td>575</td>
-    </tr>
-    <tr>
-      <th>2019-12-01</th>
-      <td>75.7094</td>
-      <td>576</td>
-    </tr>
-    <tr>
-      <th>2020-01-01</th>
-      <td>83.6290</td>
-      <td>577</td>
-    </tr>
-  </tbody>
-</table>
-<p>577 rows × 2 columns</p>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-c83efe95-593d-40c9-9124-730aeaa962a0')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-c83efe95-593d-40c9-9124-730aeaa962a0 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-c83efe95-593d-40c9-9124-730aeaa962a0');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-<div id="df-107a7151-ddfb-4ddf-9469-27973e345b12">
-  <button class="colab-df-quickchart" onclick="quickchart('df-107a7151-ddfb-4ddf-9469-27973e345b12')"
-            title="Suggest charts"
-            style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-  </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-  <script>
-    async function quickchart(key) {
-      const quickchartButtonEl =
-        document.querySelector('#' + key + ' button');
-      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-      quickchartButtonEl.classList.add('colab-df-spinner');
-      try {
-        const charts = await google.colab.kernel.invokeFunction(
-            'suggestCharts', [key], {});
-      } catch (error) {
-        console.error('Error during call to suggestCharts:', error);
-      }
-      quickchartButtonEl.classList.remove('colab-df-spinner');
-      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-    }
-    (() => {
-      let quickchartButtonEl =
-        document.querySelector('#df-107a7151-ddfb-4ddf-9469-27973e345b12 button');
-      quickchartButtonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-    })();
-  </script>
-</div>
-
-  <div id="id_07162354-3c42-428f-9dab-655da9eee968">
-    <style>
-      .colab-df-generate {
-        background-color: #E8F0FE;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        display: none;
-        fill: #1967D2;
-        height: 32px;
-        padding: 0 0 0 0;
-        width: 32px;
-      }
-
-      .colab-df-generate:hover {
-        background-color: #E2EBFA;
-        box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-        fill: #174EA6;
-      }
-
-      [theme=dark] .colab-df-generate {
-        background-color: #3B4455;
-        fill: #D2E3FC;
-      }
-
-      [theme=dark] .colab-df-generate:hover {
-        background-color: #434B5C;
-        box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-        fill: #FFFFFF;
-      }
-    </style>
-    <button class="colab-df-generate" onclick="generateWithVariable('df')"
-            title="Generate code using this dataframe."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M7,19H8.4L18.45,9,17,7.55,7,17.6ZM5,21V16.75L18.45,3.32a2,2,0,0,1,2.83,0l1.4,1.43a1.91,1.91,0,0,1,.58,1.4,1.91,1.91,0,0,1-.58,1.4L9.25,21ZM18.45,9,17,7.55Zm-12,3A5.31,5.31,0,0,0,4.9,8.1,5.31,5.31,0,0,0,1,6.5,5.31,5.31,0,0,0,4.9,4.9,5.31,5.31,0,0,0,6.5,1,5.31,5.31,0,0,0,8.1,4.9,5.31,5.31,0,0,0,12,6.5,5.46,5.46,0,0,0,6.5,12Z"/>
-  </svg>
-    </button>
-    <script>
-      (() => {
-      const buttonEl =
-        document.querySelector('#id_07162354-3c42-428f-9dab-655da9eee968 button.colab-df-generate');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      buttonEl.onclick = () => {
-        google.colab.notebook.generateWithVariable('df');
-      }
-      })();
-    </script>
-  </div>
-
-    </div>
-  </div>
-</div></div>
-</div>
-</section>
 <section id="missing-value">
-<h3>missing value<a class="headerlink" href="#missing-value" title="Link to this heading">#</a></h3>
+<h2>missing value<a class="headerlink" href="#missing-value" title="Link to this heading">#</a></h2>
 <p>mengecek apakah ada missing value pada data yang dipakai</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1193,8 +841,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>IPN31152N    0
-Month        0
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>DATE         0
+IPN31152N    0
 dtype: int64
 </pre></div>
 </div>
@@ -1202,7 +850,7 @@ dtype: int64
 </div>
 </section>
 <section id="deskripsi-data">
-<h3>deskripsi data<a class="headerlink" href="#deskripsi-data" title="Link to this heading">#</a></h3>
+<h2>deskripsi data<a class="headerlink" href="#deskripsi-data" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">description</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -1211,46 +859,126 @@ dtype: int64
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>        IPN31152N       Month
-count  577.000000  577.000000
-mean   109.701844  289.000000
-std     27.951723  166.709828
-min     58.659800    1.000000
-25%     88.514900  145.000000
-50%    107.461700  289.000000
-75%    127.932300  433.000000
-max    196.173700  577.000000
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                                DATE   IPN31152N
+count                            577  577.000000
+mean   1995-12-31 16:15:48.353552896  109.701844
+min              1972-01-01 00:00:00   58.659800
+25%              1984-01-01 00:00:00   88.514900
+50%              1996-01-01 00:00:00  107.461700
+75%              2008-01-01 00:00:00  127.932300
+max              2020-01-01 00:00:00  196.173700
+std                              NaN   27.951723
 </pre></div>
 </div>
 </div>
 </div>
 </section>
+<section id="visualisasi-data-dan-outlier">
+<h2>Visualisasi data dan outlier<a class="headerlink" href="#visualisasi-data-dan-outlier" title="Link to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Visualize the original data to see the distribution</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Original Data&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Sales Data Before Outlier Detection&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Date&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Sales&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Method 1: Detecting outliers using IQR (Interquartile Range)</span>
+<span class="k">def</span> <span class="nf">detect_outliers_iqr</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">Q1</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
+    <span class="n">Q3</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span>
+    <span class="n">IQR</span> <span class="o">=</span> <span class="n">Q3</span> <span class="o">-</span> <span class="n">Q1</span>
+    <span class="c1"># Define outliers as values outside 1.5 * IQR from the Q1 and Q3 bounds</span>
+    <span class="n">outliers</span> <span class="o">=</span> <span class="p">(</span><span class="n">data</span> <span class="o">&lt;</span> <span class="p">(</span><span class="n">Q1</span> <span class="o">-</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">IQR</span><span class="p">))</span> <span class="o">|</span> <span class="p">(</span><span class="n">data</span> <span class="o">&gt;</span> <span class="p">(</span><span class="n">Q3</span> <span class="o">+</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">IQR</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">outliers</span>
+
+<span class="c1"># Detect outliers in &#39;IPN31152N&#39; using IQR method</span>
+<span class="n">outliers</span> <span class="o">=</span> <span class="n">detect_outliers_iqr</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Number of Outliers Detected:&quot;</span><span class="p">,</span> <span class="n">outliers</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
+
+<span class="c1"># Visualize data with outliers marked</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Original Data&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="n">outliers</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">][</span><span class="n">outliers</span><span class="p">],</span> <span class="s1">&#39;ro&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Outliers&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Sales Data with Outliers Marked&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Date&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Sales&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Handle Outliers: Remove or cap them (choose the approach that suits your analysis)</span>
+<span class="c1"># Option 1: Remove Outliers</span>
+<span class="n">df_no_outliers</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="o">~</span><span class="n">outliers</span><span class="p">]</span>
+
+<span class="c1"># Option 2: Cap Outliers to a certain threshold (example: max within Q3 + 1.5*IQR)</span>
+<span class="n">capped_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">capped_data</span><span class="p">[</span><span class="n">outliers</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">][</span><span class="o">~</span><span class="n">outliers</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>  <span class="c1"># Capping outliers to the max non-outlier value</span>
+<span class="n">df_capped</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">df_capped</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">capped_data</span>
+
+<span class="c1"># Visualize the data after outlier removal</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df_no_outliers</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">df_no_outliers</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Data Without Outliers&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Sales Data After Outlier Removal&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Date&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Sales&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Visualize the data after capping outliers</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">df_capped</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">df_capped</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Data with Capped Outliers&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;purple&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Sales Data After Outlier Capping&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Date&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Sales&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/5ae96bc5593563482274610b5d55646a8f4af9fd8f16637ffcfffbd5592ab0b3.png" src="_images/5ae96bc5593563482274610b5d55646a8f4af9fd8f16637ffcfffbd5592ab0b3.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Number of Outliers Detected: 3
+</pre></div>
+</div>
+<img alt="_images/26f2ae5d66ee71f46f97e488b78a8940246fd69011879209809eb6f8c34c779f.png" src="_images/26f2ae5d66ee71f46f97e488b78a8940246fd69011879209809eb6f8c34c779f.png" />
+<img alt="_images/c495c3762eba85320d29516b90924ab6268f4451ea951a86b6443bd4c8a2af0e.png" src="_images/c495c3762eba85320d29516b90924ab6268f4451ea951a86b6443bd4c8a2af0e.png" />
+<img alt="_images/3002ba1808eb76ddc7bf642fdec617ea97333a294eb4d3f980f7025c6e4a17ae.png" src="_images/3002ba1808eb76ddc7bf642fdec617ea97333a294eb4d3f980f7025c6e4a17ae.png" />
+</div>
+</div>
+</section>
 </section>
 <section id="modeling">
-<h2>Modeling<a class="headerlink" href="#modeling" title="Link to this heading">#</a></h2>
+<h1>Modeling<a class="headerlink" href="#modeling" title="Link to this heading">#</a></h1>
 <section id="membagi-data">
-<h3>membagi data<a class="headerlink" href="#membagi-data" title="Link to this heading">#</a></h3>
+<h2>membagi data<a class="headerlink" href="#membagi-data" title="Link to this heading">#</a></h2>
 <p>Untuk fiturnya kita memakai fitur month serta untuk targetnya kita memakai fitur IPN31152N, kemudian dengan teknik sliding window untuk mengenerate fitur berdasarkan bulan sebelumnya. Untuk window_size nya sendiri adalah 12, karena kita akan memakai 12 bulan untuk prediksi 12 bulan kedepan</p>
 <p>Metode jendela geser melibatkan penggunaan jendela berukuran tetap dari langkah waktu sebelumnya untuk memprediksi langkah waktu berikutnya. Metode ini juga dikenal sebagai data tertinggal(lagged data).</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Features (Months), Target (IPN31152N)</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;Month&#39;</span><span class="p">]]</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Assuming &#39;DATE&#39; is the date column and &#39;IPN31152N&#39; is the target variable</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;DATE&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;DATE&#39;</span><span class="p">)</span>
 
-<span class="c1"># Creating a sliding window function to generate features based on previous months</span>
-<span class="k">def</span> <span class="nf">create_sliding_window_features</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">window_size</span><span class="p">):</span>
+<span class="c1"># Define the target variable &#39;y&#39;</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+
+<span class="c1"># Function to create sliding window features based on the date index, without an explicit &#39;Month&#39; feature</span>
+<span class="k">def</span> <span class="nf">create_sliding_window_features</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">window_size</span><span class="p">):</span>
     <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">window_size</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)):</span>
-        <span class="n">X</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="n">window_size</span><span class="p">:</span><span class="n">i</span><span class="p">])</span>
-        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">window_size</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
+        <span class="n">X</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">window_size</span><span class="p">:</span><span class="n">i</span><span class="p">])</span>  <span class="c1"># Collect previous &#39;window_size&#39; values</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>  <span class="c1"># Current target value</span>
     <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">X</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
 
-<span class="c1"># Set window size to 12 months (can be adjusted)</span>
+<span class="c1"># Set the window size to 12 (or any desired number of months/periods)</span>
 <span class="n">window_size</span> <span class="o">=</span> <span class="mi">12</span>
 
-<span class="c1"># Creating sliding window features for the target variable</span>
-<span class="n">X_window</span><span class="p">,</span> <span class="n">y_window</span> <span class="o">=</span> <span class="n">create_sliding_window_features</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;IPN31152N&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">window_size</span><span class="p">)</span>
+<span class="c1"># Generate the sliding window features and target</span>
+<span class="n">X_window</span><span class="p">,</span> <span class="n">y_window</span> <span class="o">=</span> <span class="n">create_sliding_window_features</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">window_size</span><span class="p">)</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Shape of X_window:&quot;</span><span class="p">,</span> <span class="n">X_window</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Shape of y_window:&quot;</span><span class="p">,</span> <span class="n">y_window</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 </pre></div>
@@ -1266,19 +994,21 @@ Shape of y_window: (565,)
 <p>Kalau ingin dilihat hasil dari X_window dan y_window</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Membuat dataframe</span>
-<span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">&#39;Month-</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">window_size</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)]</span>  <span class="c1"># Nama kolom untuk 12 bulan sebelumnya</span>
-<span class="n">df_window</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">X_window</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">columns</span><span class="p">)</span>  <span class="c1"># Data 12 bulan sebelumnya</span>
-<span class="n">df_window</span><span class="p">[</span><span class="s1">&#39;Target&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">y_window</span>  <span class="c1"># Kolom target</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define column names generically for previous periods without &#39;Month&#39; labels</span>
+<span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">&#39;Prev-</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">window_size</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)]</span>  <span class="c1"># Names for each previous period in the window</span>
 
-<span class="c1"># Menampilkan dataframe</span>
+<span class="c1"># Create dataframe for sliding window features and target</span>
+<span class="n">df_window</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">X_window</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">columns</span><span class="p">)</span>  <span class="c1"># Sliding window features</span>
+<span class="n">df_window</span><span class="p">[</span><span class="s1">&#39;Target&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">y_window</span>  <span class="c1"># Target column</span>
+
+<span class="c1"># Display the resulting dataframe</span>
 <span class="n">df_window</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-33218b32-9656-41d2-93db-2523d0502573" class="colab-df-container">
+  <div id="df-c3272401-1c08-4cad-bb9a-64333ce6c4b8" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1297,18 +1027,18 @@ Shape of y_window: (565,)
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Month-12</th>
-      <th>Month-11</th>
-      <th>Month-10</th>
-      <th>Month-9</th>
-      <th>Month-8</th>
-      <th>Month-7</th>
-      <th>Month-6</th>
-      <th>Month-5</th>
-      <th>Month-4</th>
-      <th>Month-3</th>
-      <th>Month-2</th>
-      <th>Month-1</th>
+      <th>Prev-12</th>
+      <th>Prev-11</th>
+      <th>Prev-10</th>
+      <th>Prev-9</th>
+      <th>Prev-8</th>
+      <th>Prev-7</th>
+      <th>Prev-6</th>
+      <th>Prev-5</th>
+      <th>Prev-4</th>
+      <th>Prev-3</th>
+      <th>Prev-2</th>
+      <th>Prev-1</th>
       <th>Target</th>
     </tr>
   </thead>
@@ -1496,7 +1226,7 @@ Shape of y_window: (565,)
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-33218b32-9656-41d2-93db-2523d0502573')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-c3272401-1c08-4cad-bb9a-64333ce6c4b8')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -1548,12 +1278,12 @@ Shape of y_window: (565,)
 
     <script>
       const buttonEl =
-        document.querySelector('#df-33218b32-9656-41d2-93db-2523d0502573 button.colab-df-convert');
+        document.querySelector('#df-c3272401-1c08-4cad-bb9a-64333ce6c4b8 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-33218b32-9656-41d2-93db-2523d0502573');
+        const element = document.querySelector('#df-c3272401-1c08-4cad-bb9a-64333ce6c4b8');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1573,8 +1303,8 @@ Shape of y_window: (565,)
   </div>
 
 
-<div id="df-622bce52-4405-418b-9cb2-391053a4942b">
-  <button class="colab-df-quickchart" onclick="quickchart('df-622bce52-4405-418b-9cb2-391053a4942b')"
+<div id="df-3498ac80-2aac-41b4-9119-d2c765c460df">
+  <button class="colab-df-quickchart" onclick="quickchart('df-3498ac80-2aac-41b4-9119-d2c765c460df')"
             title="Suggest charts"
             style="display:none;">
 
@@ -1693,14 +1423,14 @@ Shape of y_window: (565,)
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-622bce52-4405-418b-9cb2-391053a4942b button');
+        document.querySelector('#df-3498ac80-2aac-41b4-9119-d2c765c460df button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
   </script>
 </div>
 
-  <div id="id_505c69a8-7ca4-431b-8ce4-233291763f8a">
+  <div id="id_342b111b-c0cf-4019-aae5-d04a710df3c7">
     <style>
       .colab-df-generate {
         background-color: #E8F0FE;
@@ -1744,7 +1474,7 @@ Shape of y_window: (565,)
     <script>
       (() => {
       const buttonEl =
-        document.querySelector('#id_505c69a8-7ca4-431b-8ce4-233291763f8a button.colab-df-generate');
+        document.querySelector('#id_342b111b-c0cf-4019-aae5-d04a710df3c7 button.colab-df-generate');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
@@ -1776,10 +1506,10 @@ Shape of y_window: (565,)
 </div>
 </section>
 <section id="membuat-model">
-<h3>membuat model<a class="headerlink" href="#membuat-model" title="Link to this heading">#</a></h3>
+<h2>membuat model<a class="headerlink" href="#membuat-model" title="Link to this heading">#</a></h2>
 <p>untuk modeling dengan bagging regressor kita akan menggunakan 3 base model. Dari 3 model tersebut akan menghasilkan masing masing prediksi, kemudian prediksi-prediksi tersebut akan di ambil rata-ratanya dengan menggunakan voting regressor. Voting regressor inilah yang akan digunakan untuk inputan meta predictor bagging. Setelah dilakukan prediksi akan dihitung juga rmse, mse, mae, dan r2 nya. Prediksi 12 bulan kedepan menggunakan teknik sliding window dengan mengisi nilai pada bulan selanjutnya dengan prediksi baru</p>
 <section id="bagging">
-<h4>Bagging<a class="headerlink" href="#bagging" title="Link to this heading">#</a></h4>
+<h3>Bagging<a class="headerlink" href="#bagging" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define the three base models</span>
@@ -1867,7 +1597,7 @@ R^2 Score: 0.8493111713673671
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-c20d860a-81d3-4bc0-8a87-e0c1d7c01ac5" class="colab-df-container">
+  <div id="df-f9a83042-f764-403b-bd8c-e56d33a6fd3c" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1957,7 +1687,7 @@ R^2 Score: 0.8493111713673671
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-c20d860a-81d3-4bc0-8a87-e0c1d7c01ac5')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-f9a83042-f764-403b-bd8c-e56d33a6fd3c')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -2009,12 +1739,12 @@ R^2 Score: 0.8493111713673671
 
     <script>
       const buttonEl =
-        document.querySelector('#df-c20d860a-81d3-4bc0-8a87-e0c1d7c01ac5 button.colab-df-convert');
+        document.querySelector('#df-f9a83042-f764-403b-bd8c-e56d33a6fd3c button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-c20d860a-81d3-4bc0-8a87-e0c1d7c01ac5');
+        const element = document.querySelector('#df-f9a83042-f764-403b-bd8c-e56d33a6fd3c');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -2034,8 +1764,8 @@ R^2 Score: 0.8493111713673671
   </div>
 
 
-<div id="df-19d0ba47-f313-4292-a38e-9ab18f23eab7">
-  <button class="colab-df-quickchart" onclick="quickchart('df-19d0ba47-f313-4292-a38e-9ab18f23eab7')"
+<div id="df-46357d1e-aaba-4110-8853-72e0b0e478e2">
+  <button class="colab-df-quickchart" onclick="quickchart('df-46357d1e-aaba-4110-8853-72e0b0e478e2')"
             title="Suggest charts"
             style="display:none;">
 
@@ -2154,14 +1884,14 @@ R^2 Score: 0.8493111713673671
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-19d0ba47-f313-4292-a38e-9ab18f23eab7 button');
+        document.querySelector('#df-46357d1e-aaba-4110-8853-72e0b0e478e2 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
   </script>
 </div>
 
-  <div id="id_7a6df6bd-0e5f-4683-9aaf-6881290f89d4">
+  <div id="id_ea8cd016-6816-4a3f-873a-321fa086e9af">
     <style>
       .colab-df-generate {
         background-color: #E8F0FE;
@@ -2205,7 +1935,7 @@ R^2 Score: 0.8493111713673671
     <script>
       (() => {
       const buttonEl =
-        document.querySelector('#id_7a6df6bd-0e5f-4683-9aaf-6881290f89d4 button.colab-df-generate');
+        document.querySelector('#id_ea8cd016-6816-4a3f-873a-321fa086e9af button.colab-df-generate');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
@@ -2222,7 +1952,7 @@ R^2 Score: 0.8493111713673671
 </div>
 </section>
 <section id="arima">
-<h4>Arima<a class="headerlink" href="#arima" title="Link to this heading">#</a></h4>
+<h3>Arima<a class="headerlink" href="#arima" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fit ARIMA model</span>
@@ -2279,7 +2009,7 @@ R^2 Score: 0.3462485919636229
 </div>
 </section>
 <section id="linier-regression">
-<h4>Linier Regression<a class="headerlink" href="#linier-regression" title="Link to this heading">#</a></h4>
+<h3>Linier Regression<a class="headerlink" href="#linier-regression" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Membuat fitur bulan dari data</span>
@@ -2336,6 +2066,9 @@ R^2 Score: -3.0680301664832967
 </div>
 </section>
 </section>
+<section id="kesimpulan">
+<h2>Kesimpulan<a class="headerlink" href="#kesimpulan" title="Link to this heading">#</a></h2>
+<p>model dengan metode bagging regressor adalah model yang terbaik dengan perbandingan rmse lebih kecil dari model arima dan regresi linier</p>
 </section>
 </section>
 
@@ -2394,28 +2127,30 @@ R^2 Score: -3.0680301664832967
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-understanding">Data Understanding</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#library">library</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#menampilkan-data">menampilkan data</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Data Understanding</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#library">library</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menampilkan-data">menampilkan data</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing">Data Preprocessing</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#menambahkan-fitur">menambahkan fitur</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#missing-value">missing value</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deskripsi-data">deskripsi data</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing">Data Preprocessing</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#missing-value">missing value</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deskripsi-data">deskripsi data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visualisasi-data-dan-outlier">Visualisasi data dan outlier</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#membagi-data">membagi data</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model">membuat model</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bagging">Bagging</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#arima">Arima</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#linier-regression">Linier Regression</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membagi-data">membagi data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-model">membuat model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bagging">Bagging</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#arima">Arima</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linier-regression">Linier Regression</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kesimpulan">Kesimpulan</a></li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+
   </nav></div>
 
 </div></div>
